@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>интернет-магазин</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="productForm">
+      <label for="title">Title:</label>
+      <input type="text" id="title" required />
+
+      <label for="price">Price:</label>
+      <input type="number" id="price" required />
+
+      <label for="imageUrl">URL img:</label>
+      <input type="url" id="imageUrl" required />
+
+      <button type="button" onclick="addProduct()">Create product</button>
+    </form>
+
+    <table id="productTable">
+      <tr>
+        <th>title</th>
+        <th>price</th>
+        <th>image</th>
+        <th>action</th>
+      </tr>
+    </table>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

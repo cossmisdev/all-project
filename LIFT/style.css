@@ -1,0 +1,48 @@
+.block {
+  position: relative;
+}
+.box {
+  width: 180px;
+  height: 50px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #5f685f;
+  transition: background-color 0.3s;
+}
+#lift {
+  
+}
+img {
+  width: 90px;
+}
+#roof {
+  border-bottom: 30px solid #1a0d00;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  width: 200px;
+  z-index: 2;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4caf50;
+  transition: background-color 0.3s;
+}

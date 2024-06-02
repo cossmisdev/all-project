@@ -1,0 +1,77 @@
+body{
+background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/221438b8-7537-47f9-88b5-7624ad9339a1/KG-ru-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+.auth_block{
+background-color: black;
+width: 270px;
+height: 400px;
+text-align: center;
+margin: 90px 700px;
+padding: 20px;
+opacity: 0.8;
+border-radius: 10px;
+}
+.auth_block h2{
+color: white;
+}
+.email{
+width: 220px;
+height: 30px;
+background-color: #494949;
+border: none;
+border-radius: 4px;
+}
+
+.password{
+width: 220px;
+height: 30px;
+background-color: #494949;
+border: none;
+margin: 25px 0;
+border-radius: 4px;
+}
+.email::placeholder,
+.password::placeholder{
+color: white;
+padding:0 10px;
+}
+.btn{
+width: 220px;
+height: 32px;
+background-color: #e50914;
+border: none;
+color: white;
+border-radius: 4px;
+font-weight: bold;
+}
+.span{
+color: #969494;
+font-size: 11px;
+}
+.block_help{
+margin: 10px 0;
+}
+.link_help{
+color:#969494 ;
+font-size: 13px;
+}
+.span_netflix{
+color: #969494;
+font-size: 13px;
+}
+.auth_now{
+color: white;
+font-size: 13px;
+}
+.text{
+color: #969494;
+font-size: 12px;
+}
+.p_link{
+    text-decoration: none;
+}
+
+
+
+

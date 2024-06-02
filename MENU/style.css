@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background: #95b9c9;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  padding: 15px;
+  background-color: #fff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.header_nav a {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h1 {
+  color: #33332d;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  text-align: center;
+  margin-top: 32px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.admin input {
+  width: 549px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #d9d9d9;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 32px;
+}
+.admin button {
+  width: 254.1px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ddaa27;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+/* MENU */
+
+.menu {
+  /* width: 100%; */
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card {
+    padding: 10px;
+  width: 310px;
+  height: 290px;
+  border-radius: 15px;
+  background-color: #dfdada;
+}
+.menu_img {
+  width: 310px;
+  height: 200px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.actin_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_delete,
+.btn_buy,
+.btn_edit {
+  font-size: 25px;
+  border: none;
+  background-color: #dfdada;
+}
+.menu_text {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text_name,
+.text_price {
+  font-size: 25px;
+}

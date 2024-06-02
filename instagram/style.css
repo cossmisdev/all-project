@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Instagram Sans UI", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.img-logo {
+  margin: 40px 117px 31px 24px;
+}
+.box {
+  display: flex;
+}
+.instagram {
+  width: 244px;
+  height: 100vh;
+  border-right: 1px solid #2626265e;
+  position: relative;
+}
+.profile-obj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile {
+  padding: 50px 0;
+  display: inline-flex;
+  padding-left: 70.828px;
+  justify-content: center;
+  align-items: center;
+  gap: 100.844px;
+  flex-shrink: 0;
+  margin-left: 200px;
+}
+.insta-icon,
+.insta-icon-more {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.insta-icon-profile {
+  display: flex;
+  padding: 12px 12px 12px 10px;
+  align-items: center;
+}
+.insta-icon img,
+.insta-icon-more img {
+  margin: 0 16px 0 0;
+}
+.insta-icon-profile img {
+  margin: 0 16px 0 0;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.insta-icon-more button {
+  border: none;
+  background-color: rgba(245, 245, 220, 0.022);
+  font-size: 17px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.ava img {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  position: relative;
+}
+.name h2 {
+  font-weight: 300;
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 613.328px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.block-2 {
+  display: flex;
+  padding-left: 8px;
+  align-items: center;
+  gap: 8px;
+}
+
+.block-2 button {
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+}
+.block-2 span {
+  font-size: 25px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+}
+.follower {
+  display: flex;
+  padding-right: 267.281px;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 20px 0;
+}
+.follower h2 span {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 900;
+}
+.follower h2 {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 530;
+}
+.bio {
+  font-weight: 400;
+  color: #000000b6;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 470px;
+  margin-left: 200px;
+  border-top: 1px solid black;
+}
+.nav-1 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-1 span {
+  margin-top: 5px;
+}
+.foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 0 200px;
+}
+.foto img {
+  width: 80px;
+}
+.foto h1 {
+  margin-top: 15px;
+  font-size: 30px;
+}
+.foto p {
+  margin: 20px 0;
+}
+.foto a {
+  color: rgb(68, 129, 214);
+  font-weight: 600;
+  font-size: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 300px 0 0 200px;
+}
+.foot-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.foot-1 a {
+  font-size: 13px;
+  color: #262626a5;
+}
+.foot-2 {
+  display: flex;
+  margin: 20px 0;
+}
+.foot-2 select,
+p {
+  margin: 0 10px;
+  color: #262626a5;
+  border: none;
+}
+
+.insta-icon-more {
+  position: absolute;
+  bottom: 10px;
+}
+
+.list {
+  display: none;
+  width: 280px;
+  height: 380px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.213);
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.list-box {
+  display: flex;
+  margin: 15px 0 15px 15px;
+  padding-top: 13px;
+}
+.list-box a {
+  color: #000000e7;
+  font-size: 18px;
+  margin: 3px 0 0 10px;
+}
+.list-box span {
+  font-size: 25px;
+}
+.list-box-2 {
+  margin-top: 15px;
+}
+.list-box-2 a {
+  font-size: 18px;
+  color: #000000e7;
+  margin-left: 20px;
+}
+.modal_new_ava {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2626263a;
+  border-radius: 5px;
+}
+.new_ava_inp {
+  width: 150px;
+}
+.btn_ava_save {
+  width: 150px;
+}

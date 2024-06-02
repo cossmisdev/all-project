@@ -1,0 +1,39 @@
+.heading{
+    color: red;
+}
+#heading2{
+    color: blue;
+}
+#heading3{
+    background-color: black;
+}
+#heading4{
+    background-color: rgb(102, 106, 47);
+    width: 200px;
+    border-radius: 5px;
+}
+#heading5{
+    background-color: pink;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#heading5:hover{
+    background-color: blueviolet;
+    width: 200px;
+    height: 30px;
+    transition: 2s;
+    margin: 10px;
+    border-radius:6px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    background-color: green;
+    color: #fff;
+}
+
